@@ -15,10 +15,17 @@
   }
   
   /** todo item **/
+  .todo-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: red;
+  }
   .todo-item {
     font-family: monospace;
     cursor: pointer;
-    line-height: 1.5;
+    line-height: 4;
+    color:red;
   }
   .todo-item__text--completed {
     text-decoration: line-through;
